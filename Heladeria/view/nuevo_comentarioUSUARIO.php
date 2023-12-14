@@ -8,13 +8,12 @@
     <title>Agregar Nuevo Comentario</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
-
 </head>
 
 <body>
     <div class="container mt-5">
         <h1>Agregar Nuevo Comentario</h1>
-        <form action="nuevo_comentario.php" method="post">
+        <form action="nuevo_comentarioUSUARIO.php" method="post">
             <div class="form-group">
                 <input type="text" class="form-control" name="nombre_usuario" placeholder="Nombre de Usuario" required>
             </div>

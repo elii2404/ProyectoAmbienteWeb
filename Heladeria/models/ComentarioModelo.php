@@ -31,7 +31,6 @@ class ComentarioModelo {
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
 
-    // Additional methods as needed
 
     public function obtenerComentarioPorID($comentarioID) {
         $conexion = Conexion::conectar();

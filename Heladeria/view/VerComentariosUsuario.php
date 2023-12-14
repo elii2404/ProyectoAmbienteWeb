@@ -29,12 +29,12 @@
 </head>
 
 <body>
-    <?php require('./layout/navADMIN.php') ?>
+    <?php require('./layout/navUSUARIO.php') ?>
 
     <div class="container mt-5">
         <h1>Lista de Comentarios</h1>
         <hr>
-        <a class="btn btn-success" href="nuevo_comentario.php">Agregar Comentario <i class="fa fa-plus"></i> </a>
+        <a class="btn btn-success" href="nuevo_comentarioUSUARIO.php">Agregar Comentario <i class="fa fa-plus"></i> </a>
 <hr>
         <?php
         require_once '../controllers/ComentarioControlador.php'; // Change to the appropriate controller file
@@ -54,7 +54,7 @@
             echo '</div>';
         }
         ?>
-        <a class="btn btn-info" href="gestion.php">Regresar <i class="fa fa-plus"></i> </a>
+        <a class="btn btn-info" href="index_usuario.php">Regresar <i class="fa fa-plus"></i> </a>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

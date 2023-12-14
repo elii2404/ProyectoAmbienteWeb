@@ -24,7 +24,6 @@ class ComentarioControlador {
         return $this->modelo->obtenerComentarios();
     }
 
-    // Additional methods as needed
 
     public function obtenerComentarioPorID($comentarioID) {
         return $this->modelo->obtenerComentarioPorID($comentarioID);
